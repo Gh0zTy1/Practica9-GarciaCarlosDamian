@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "658088948362",
+    "project_id": "practica9proyecto-baa37",
+    "storage_bucket": "practica9proyecto-baa37.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658088948362:android:5f6e582dd7c51a4e377373",
+        "android_client_info": {
+          "package_name": "garcia.carlosdamian.practica9_garciacarlosdamian"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa35RSsauMaGHmcf04kLD7j0WJ601tycE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
