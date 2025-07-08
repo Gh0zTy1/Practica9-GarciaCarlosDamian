@@ -9,7 +9,7 @@ import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 
 class TareaAdapter(
-    var listaTareas: List<Tarea>,
+    private var listaTareas: List<Tarea>,
     var onBorrarClic: (String) -> Unit,
     var onActualizarClic: (Tarea) -> Unit
 ) : RecyclerView.Adapter<TareaAdapter.ViewHolder>() {
@@ -43,5 +43,11 @@ class TareaAdapter(
         holder.cvTarea.setOnClickListener {
             onActualizarClic(tarea)
         }
+    }
+
+    // Nueva función para actualizar los datos del adaptador
+    fun actualizarLista(nuevaLista: List<Tarea>) {
+        listaTareas = nuevaLista
+        notifyDataSetChanged() // Notifica al RecyclerView que los datos han cambiado
     }
 }
